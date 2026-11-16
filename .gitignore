@@ -1,0 +1,5 @@
+/.pio/
+/build/
+/local/
+/managed_components/
+**/wifi_secret.hpp

@@ -1,0 +1,15 @@
+{
+  "name": "NaWFstore",
+  "version": "0.1.0",
+  "description": "Wi-Fi profile storage and connection management for ESP-IDF",
+  "keywords": ["esp32", "wifi", "nvs"],
+  "frameworks": ["espidf"],
+  "platforms": ["espressif32"],
+  "license": "MIT",
+  "build": {
+    "includeDir": "include",
+    "srcDir": ".",
+    "srcFilter": ["-<*>", "+<src/core/>", "+<ports/esp_idf/>", "+<adapters/console/>"],
+    "flags": ["-std=gnu++20"]
+  }
+}
